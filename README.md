@@ -1,4 +1,4 @@
-#Job Finder & Application Tracker
+# Job Finder & Application Tracker
 
 Overview
 
