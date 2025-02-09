@@ -1,66 +1,60 @@
 # Job Finder & Application Tracker
 
-Overview
+## Overview
+This is a fully responsive **Job Finder & Application Tracker** website built using the **MERN stack**. It allows users to search for jobs, track their applications, and manage their job-hunting process efficiently. The project features an **animated UI**, **modern design**, and **mobile-friendly** navigation.
 
-This is a fully responsive Job Finder & Application Tracker website built using the MERN stack. It allows users to search for jobs, track their applications, and manage their job-hunting process efficiently. The project features an animated UI, modern design, and mobile-friendly navigation.
+## Tech Stack
+### Frontend:
+- **Next.js 15** (React Framework)
+- **Tailwind CSS** (Styling)
+- **Framer Motion** (Animations)
 
-Tech Stack
+### Backend:
+- **Node.js & Express.js** (Server-side development)
+- **MongoDB** (Database)
 
-Frontend:
+## Features
+✅ **Job Search** – Search and filter jobs dynamically.
+✅ **Application Tracking** – Users can save and track job applications.
+✅ **Authentication** – User login and registration.
+✅ **Responsive Design** – Fully mobile-friendly UI with a toggleable navbar.
+✅ **Modern UI/UX** – Smooth animations and a visually appealing interface.
 
-Next.js 15 (React Framework)
+## Installation & Setup
 
-Tailwind CSS (Styling)
-
-Framer Motion (Animations)
-
-Backend:
-
-Node.js & Express.js (Server-side development)
-
-MongoDB (Database)
-
-Features
-
-✅ Job Search – Search and filter jobs dynamically.
-✅ Application Tracking – Users can save and track job applications.
-✅ Authentication – User login and registration.
-✅ Responsive Design – Fully mobile-friendly UI with a toggleable navbar.
-✅ Modern UI/UX – Smooth animations and a visually appealing interface.
-
-Installation & Setup
-
-1. Clone the Repository:
-
+### 1. Clone the Repository:
+```bash
 git clone https://github.com/your-username/job-finder.git
 cd job-finder
+```
 
-2. Install Dependencies:
-
+### 2. Install Dependencies:
+```bash
 npm install
+```
 
-3. Setup Environment Variables:
-
-Create a .env.local file in the root directory and add the following:
-
+### 3. Setup Environment Variables:
+Create a `.env.local` file in the root directory and add the following:
+```env
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
+```
 
-4. Run the Development Server:
-
-Frontend:
-
+### 4. Run the Development Server:
+#### Frontend:
+```bash
 npm run dev
-
-Backend:
-
+```
+#### Backend:
 Navigate to the backend folder:
-
+```bash
 cd backend
 npm install
 npm run dev
+```
 
-5. Open the App:
+### 5. Open the App:
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-Visit http://localhost:3000 in your browser.
+
