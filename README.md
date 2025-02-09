@@ -51,7 +51,7 @@ Navigate to the backend folder:
 ```bash
 cd backend
 npm install
-npm run dev
+node server.js or (nodemon server.js)
 ```
 
 ### 5. Open the App:
